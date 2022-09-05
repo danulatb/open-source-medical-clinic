@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep9.clinic.controller.AdminDashboardFormController">
+<AnchorPane prefHeight="511.0" prefWidth="523.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep9.clinic.controller.AdminDashboardFormController">
    <children>
-      <Label layoutX="181.0" layoutY="90.0" text="Admin Dashboard">
+      <ImageView fitHeight="73.0" fitWidth="124.0">
+         <image>
+            <Image url="@../../../../../../../../Downloads/79077020-faf1-4723-9635-1b818228de33.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="188.0" layoutY="93.0" text="Admin Dashboard">
          <font>
-            <Font name="Cantarell Regular" size="30.0" />
+            <Font name="Cantarell Regular" size="25.0" />
          </font>
       </Label>
+      <Label layoutX="139.0" layoutY="25.0" prefHeight="32.0" prefWidth="437.0" text="MEDICARE CHANNELING CENTER">
+         <font>
+            <Font name="Cantarell Extra Bold" size="25.0" />
+         </font>
+      </Label>
+      <VBox layoutX="118.0" layoutY="168.0" spacing="20.0">
+         <children>
+            <Button fx:id="btnProfileManagment" mnemonicParsing="false" onAction="#btnProfileManagmentOnAction" prefHeight="48.0" prefWidth="340.0" text="Profile Managment">
+               <font>
+                  <Font name="Cantarell Extra Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnViewRecords" mnemonicParsing="false" onAction="#btnViewRecordsOnAction" prefHeight="48.0" prefWidth="340.0" text="View Records">
+               <font>
+                  <Font name="Cantarell Extra Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnSettings" mnemonicParsing="false" onAction="#btnSettingsOnAction" prefHeight="48.0" prefWidth="340.0" text="Settings">
+               <font>
+                  <Font name="Cantarell Extra Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnLogOut" mnemonicParsing="false" onAction="#btnLogOutOnAction" prefHeight="48.0" prefWidth="340.0" text="Log Out">
+               <font>
+                  <Font name="Cantarell Extra Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
    </children>
 </AnchorPane>
