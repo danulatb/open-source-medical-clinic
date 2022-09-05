@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="412.0" prefWidth="778.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep9.clinic.controller.ProfileManagementFormController">
    <children>
       <Label layoutX="20.0" layoutY="21.0" text="Profile Management">
@@ -19,8 +18,10 @@
       </Label>
       <TableView fx:id="tblDetails" layoutX="20.0" layoutY="77.0" prefHeight="304.0" prefWidth="507.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="C1" />
-          <TableColumn prefWidth="75.0" text="C2" />
+          <TableColumn prefWidth="75.0" text="Name" />
+          <TableColumn prefWidth="75.0" text="Address" />
+            <TableColumn prefWidth="170.0" text="contact Nmber" />
+            <TableColumn prefWidth="104.0" text="Field" />
         </columns>
       </TableView>
       <VBox layoutX="558.0" layoutY="76.0" spacing="15.0">

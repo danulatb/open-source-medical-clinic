@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="674.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep9.clinic.controller.AddProfileFormController">
    <children>
       <Label layoutX="14.0" layoutY="14.0" text="Add /Modify Profile">
@@ -70,12 +69,7 @@
             <TextField fx:id="txtAddress" prefHeight="26.0" prefWidth="416.0" />
          </children>
       </VBox>
-      <Button fx:id="btnSave" layoutX="110.0" layoutY="606.0" mnemonicParsing="false" onAction="#btnSaveOnAction" prefHeight="42.0" prefWidth="145.0" text="Save">
-         <font>
-            <Font name="Cantarell Extra Bold" size="20.0" />
-         </font>
-      </Button>
-      <Button fx:id="btnReset" layoutX="339.0" layoutY="606.0" mnemonicParsing="false" onAction="#btnResetOnAction" prefHeight="42.0" prefWidth="145.0" text="Reset">
+      <Button fx:id="btnSave" layoutX="231.0" layoutY="607.0" mnemonicParsing="false" onAction="#btnSaveOnAction" prefHeight="42.0" prefWidth="145.0" text="Save">
          <font>
             <Font name="Cantarell Extra Bold" size="20.0" />
          </font>
