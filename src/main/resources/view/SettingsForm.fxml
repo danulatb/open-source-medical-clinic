@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="476.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep9.clinic.controller.SettingsFormController">
+<AnchorPane prefHeight="549.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep9.clinic.controller.SettingsFormController">
    <children>
       <Label layoutX="14.0" layoutY="14.0" text="Settings">
          <font>
@@ -45,6 +44,6 @@
             </Button>
          </children>
       </VBox>
-      <AnchorPane fx:id="pneDetails" layoutX="191.0" layoutY="75.0" prefHeight="388.0" prefWidth="455.0" />
+      <AnchorPane fx:id="pneDetails" layoutX="191.0" layoutY="75.0" prefHeight="388.0" prefWidth="455.0" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="191.0" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="75.0" />
    </children>
 </AnchorPane>
