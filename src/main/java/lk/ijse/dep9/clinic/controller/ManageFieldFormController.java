@@ -11,7 +11,11 @@ public class ManageFieldFormController {
     public TextField txtAddField;
     public ListView lstFields;
     public Button btnAdd;
+    public Button btnDelete;
 
     public void btnAddOnAction(ActionEvent actionEvent) {
+    }
+
+    public void btnDeleteOnAction(ActionEvent actionEvent) {
     }
 }

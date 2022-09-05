@@ -22,7 +22,7 @@
                   <Font name="Cantarell Extra Bold" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="btnDisconts" mnemonicParsing="false" onAction="#btnDiscontsOnAction" prefHeight="32.0" prefWidth="149.0" text="Discounts">
+            <Button fx:id="btnDiscount" mnemonicParsing="false" onAction="#btnDiscountOnAction" prefHeight="32.0" prefWidth="149.0" text="Discounts">
                <font>
                   <Font name="Cantarell Extra Bold" size="15.0" />
                </font>
@@ -32,7 +32,7 @@
                   <Font name="Cantarell Extra Bold" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="btnChangegPassword" mnemonicParsing="false" onAction="#btnChangegPasswordOnAction" prefHeight="32.0" prefWidth="149.0" text="Change Password">
+            <Button fx:id="btnChangePassword" mnemonicParsing="false" onAction="#btnChangePasswordOnAction" prefHeight="32.0" prefWidth="149.0" text="Change Password">
                <font>
                   <Font name="Cantarell Extra Bold" size="15.0" />
                </font>

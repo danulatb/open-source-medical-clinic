@@ -17,8 +17,13 @@
       </Label>
       <TextField fx:id="txtAddField" layoutX="19.0" layoutY="59.0" prefHeight="26.0" prefWidth="330.0" />
       <Separator layoutX="20.0" layoutY="97.0" prefHeight="0.0" prefWidth="420.0" />
-      <ListView fx:id="lstFields" layoutX="19.0" layoutY="110.0" prefHeight="263.0" prefWidth="420.0" />
+      <ListView fx:id="lstFields" layoutX="19.0" layoutY="110.0" prefHeight="263.0" prefWidth="330.0" />
       <Button fx:id="btnAdd" layoutX="360.0" layoutY="59.0" mnemonicParsing="false" onAction="#btnAddOnAction" prefHeight="26.0" prefWidth="79.0" text="Add">
+         <font>
+            <Font name="Cantarell Extra Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDelete" layoutX="360.0" layoutY="110.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="26.0" prefWidth="79.0" text="Delete">
          <font>
             <Font name="Cantarell Extra Bold" size="15.0" />
          </font>
