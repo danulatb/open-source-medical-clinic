@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="674.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep9.clinic.controller.AddProfileFormController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Add /Modify Profile">
+         <font>
+            <Font name="Cantarell Bold" size="25.0" />
+         </font>
+      </Label>
+      <Separator layoutX="14.0" layoutY="56.0" prefHeight="4.0" prefWidth="565.0" />
+      <VBox layoutX="26.0" layoutY="95.0" prefHeight="416.0" prefWidth="554.0" spacing="5.0">
+         <children>
+            <Label text="Profile Type">
+               <font>
+                  <Font name="Cantarell Regular" size="20.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="cmbPriofileType" prefHeight="26.0" prefWidth="554.0" />
+            <Label text="Name">
+               <font>
+                  <Font name="Cantarell Regular" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtName" prefHeight="26.0" prefWidth="381.0" />
+            <Label text="User Name">
+               <font>
+                  <Font name="Cantarell Regular" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtUserName" prefHeight="26.0" prefWidth="416.0" />
+            <Label text="Field">
+               <font>
+                  <Font name="Cantarell Regular" size="20.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="cmbField" prefHeight="26.0" prefWidth="552.0" />
+            <Label text="Gender">
+               <font>
+                  <Font name="Cantarell Regular" size="20.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="cmbGender" prefHeight="26.0" prefWidth="555.0" />
+            <Label text="NIC">
+               <font>
+                  <Font name="Cantarell Regular" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtNIC" prefHeight="26.0" prefWidth="416.0" />
+            <Label text="Contact No">
+               <font>
+                  <Font name="Cantarell Regular" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtContact" prefHeight="26.0" prefWidth="416.0" />
+            <Label text="Address">
+               <font>
+                  <Font name="Cantarell Regular" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtAddress" prefHeight="26.0" prefWidth="416.0" />
+         </children>
+      </VBox>
+      <Button fx:id="btnSave" layoutX="110.0" layoutY="606.0" mnemonicParsing="false" onAction="#btnSaveOnAction" prefHeight="42.0" prefWidth="145.0" text="Save">
+         <font>
+            <Font name="Cantarell Extra Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnReset" layoutX="339.0" layoutY="606.0" mnemonicParsing="false" onAction="#btnResetOnAction" prefHeight="42.0" prefWidth="145.0" text="Reset">
+         <font>
+            <Font name="Cantarell Extra Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
