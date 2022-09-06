@@ -87,6 +87,7 @@ public class LoginFormController {
                 stage.setScene(scene);
                 stage.show();
                 stage.centerOnScreen();
+                btnLogin.getScene().getWindow().hide();
 
 
             }else {
