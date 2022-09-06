@@ -29,11 +29,14 @@ public class SettingsFormController {
     }
 
     public void btnAboutOnAction(ActionEvent actionEvent) {
+        pneDetails.getChildren().clear();
     }
 
     public void btnDiscountOnAction(ActionEvent actionEvent) {
+        pneDetails.getChildren().clear();
     }
 
     public void btnChangePasswordOnAction(ActionEvent actionEvent) {
+        pneDetails.getChildren().clear();
     }
 }
